@@ -1,5 +1,7 @@
 <?php
 
-echo 'Hello';
-echo "\n";
-echo 'Hello World';
+echo "Hello:\n";
+echo "HELLO MARINA:\n";
+echo "Hello VIKTOR:";
+
+
