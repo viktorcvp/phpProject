@@ -1,53 +1,43 @@
 <?php
-echo readline("Привет, как тебя зовут?\n");
+const QUISTION1 = "какая задача стоит перед вами сегодня? ";
+$timeQuestion = "Сколько примерно времени это займет? ";
 
-echo "меня зовут виктор:\n";
+$name = readline("Привет, как вас зовут? :");
+$ege = (int)readline("сколько вам лет? :");
 
-echo readline("виктор,сколько вам лет?\n");
+echo "Вас зовут $name, вам $ege лет\n";
 
-echo "50\n";
+$task = readline(QUISTION1);
+$time = (int)readline($timeQuestion);
+$task1 = readline(QUISTION1);
+$time1 = (int)readline($timeQuestion);
+$task2 = readline(QUISTION1);
+$time2 = (int)readline($timeQuestion);
+$sum = $time + $time1 + $time2;
 
-echo "\n";
+echo "$name, сегодня у вас запланировано 3 приоритетных задачи на день:
+$task $time(ч)
+$task1 $time1(ч)
+$task2 $time2(ч)\n";
 
-echo "вас зовут виктор,вам 50 лет:\n";
+echo "Примерное время выполнения плана = {$sum}ч";
 
-echo readline("Какая задача стоит перед вами сегодня?\n");
 
-echo "- Погулять с кошкой:\n";
 
-echo readline("«Сколько примерно времени эта задача займет?\n");
 
-echo "- 1 час: \n";
 
-echo readline("Какая задача стоит перед вами сегодня?\n");
 
-echo "- Попить кофе:\n";
 
-echo readline("«Сколько примерно времени эта задача займет?\n");
 
-echo "- 2 час: \n";
 
-echo "\n";
 
-echo readline("Какая задача стоит перед вами сегодня?\n");
 
-echo "- Полежать на диване:\n";
 
-echo readline("«Сколько примерно времени эта задача займет?\n");
 
-echo "\n";
 
-echo "- 4 часа: \n";
 
-echo "\n";
 
-echo "-виктор, сегодня у вас запланировано 3 приоритетных задачи на день:\n";
 
-echo "\n";
-
-echo " Погулять с кошкой 1 час:\n";
-echo "Попить кофе 2 часа:\n";
-echo "- Полежать на диване 4 часа:\n";
 
 
 
