@@ -387,7 +387,7 @@ FodyWeavers.xsd
 *.code-workspace
 .idea/
 .veny
-
+.idea
 # Local History for Visual Studio Code
 .history/
 
